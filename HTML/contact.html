@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+    <title>18844 Pr0Teens</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Overpass:wght@900&family=Poppins&display=swap"
+          rel="stylesheet">
+    <script src="./javascript/toggleThanks.js" async></script>
+</head>
+
+<body>
+<header id="main-header">
+    <div class="container">
+        <div class="back-to-home">
+            <h1><a href="./index.html">18844 Pr0teens</a></h1>
+        </div>
+    </div>
+</header>
+<nav id="navbar">
+    <div class="container">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./awards.html">Awards</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./events.html">Events</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<section id="showcase">
+    <div class="container">
+
+    </div>
+</section>
+
+<div class="container">
+    <section id="contact-main">
+        <h2>Contact</h2>
+        <p> Contact us at:
+        <address>
+            <a href="mailto:pr0teensrobotics@gmail.com" class="button" target="_blank">Pr0teens
+                Email</a>
+        </address>
+        <br>
+        <li>Send us a direct email at pr0teensrobotics@gmail.com if you have any questions or comments!</li>
+        <br>
+
+        <a href="https://twitter.com/pr0teens" class="button" target="_blank">Pr0teens
+            Twitter</a>
+        <br><br>
+        <li>Check out our Twitter page to learn more about our team, keep up with events, and learn more about FIRST!</li>
+        <br>
+        <a href="https://www.instagram.com/pr0teensrobotics/" class="button" target="_blank">Pr0teens
+            Instagram</a>
+        <br><br>
+        <li>Our Instagram page keeps you updated on our team!</li>
+        </p>
+        <p><br>Or enter a message using the form to the right! We will get to you as soon as possible!</p>
+    </section>
+    <aside id="contactbar">
+        <h1>Contact Us</h1>
+        <form action="./php/contact_form.php" method="post">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+            <label for="lemail">Email</label>
+            <input type="text" id="lemail" name="email" placeholder="someone@example.com">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something..."
+                      style="height:100px"></textarea>
+
+            <input type="submit" value="Submit" onclick="toggleThanks()">
+        </form>
+        <div id="thanks_message" style="display:none;">Thanks for your submission! We'll get to you ASAP.</div>
+    </aside>
+</div>
+
+<footer id="main-footer">
+    <p>Be sure to check out the rest of our website using the top navigation bar!</p>
+    <p>Copyright &copy; 2022 Pr0teens</p>
+</footer>
+
+</body>
+</html>

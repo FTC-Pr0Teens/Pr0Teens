@@ -1,0 +1,221 @@
+body{
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: height 1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+.back-to-home a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button {
+  font: bold 15px 'Lato', sans-serif;
+  text-decoration: none;
+  background-color: #87cefa;
+  color: #fffafa;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.button:hover {
+    background-color: #b0dfff;
+}
+
+#main-header {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: rgb(255,225,75);
+    color: #FFFFFF;
+    font-family: 'Overpass', sans-serif;
+}
+
+#navbar{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(60,60,60);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 80px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    color: #fff;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+
+}
+
+#showcase{
+    background-image:url('../images/RoboticsBanner.jpeg');
+    background-position: center right;
+    min-height: 350px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    animation: fadeIn linear 0.5s;
+          -webkit-animation: fadeIn linear 0.5s;
+          -moz-animation: fadeIn linear 0.5s;
+          -o-animation: fadeIn linear 0.5s;
+          -ms-animation: fadeIn linear 0.5s;
+}
+
+.caption{
+    float: center;
+    font-style: italic;
+    font-size: 13px;
+        animation: fadeIn linear 0.5s;
+              -webkit-animation: fadeIn linear 0.5s;
+              -moz-animation: fadeIn linear 0.5s;
+              -o-animation: fadeIn linear 0.5s;
+              -ms-animation: fadeIn linear 0.5s;
+}
+
+#contact-main{
+    float: left;
+    width: 60%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    animation: fadeIn linear 0.5s;
+          -webkit-animation: fadeIn linear 0.5s;
+          -moz-animation: fadeIn linear 0.5s;
+          -o-animation: fadeIn linear 0.5s;
+          -ms-animation: fadeIn linear 0.5s;
+}
+
+#portfolio-main{
+    float: left;
+    width: 65%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    animation: fadeIn linear 0.5s;
+          -webkit-animation: fadeIn linear 0.5s;
+          -moz-animation: fadeIn linear 0.5s;
+          -o-animation: fadeIn linear 0.5s;
+          -ms-animation: fadeIn linear 0.5s;
+}
+
+/* Make text fade in when the page is refreshed */
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: rgb(217, 241, 255);
+    padding: 10px;
+    box-sizing: border-box;
+}
+#contactcontainer{
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+}
+#contactbar{
+    float: right;
+    width: 40%;
+    background: #b0dfff;
+    padding: 15px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#main-footer{
+    background-color: darkgray;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #678bd8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float:none;
+
+    }
+    #sidebar{
+        width: 100%;
+        float:none;
+
+    }
+}
