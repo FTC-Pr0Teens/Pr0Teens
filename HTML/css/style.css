@@ -78,7 +78,7 @@ body{
     padding-top: 30px;
 }
 
-#main{
+.main{
     float: left;
     width: 70%;
     padding: 0 30px;
@@ -113,7 +113,7 @@ body{
           -ms-animation: fadeIn linear 0.5s;
 }
 
-#portfolio-main{
+.portfolio-main{
     float: left;
     width: 65%;
     padding: 0 30px;
