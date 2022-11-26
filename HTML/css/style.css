@@ -150,7 +150,6 @@ body{
   0% {opacity:0;}
   100% {opacity:1;}
 }
-
 #sidebar{
     float: right;
     width: 30%;
@@ -206,7 +205,16 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-
+  #zoomC {
+    /* (A) DIMENSIONS */
+    width: auto;
+    height: 200px;
+   
+    /* (B) BACKGROUND IMAGE */
+    background: url("./images/18844 Pr0Teens Compliant Claw.png");
+    background-position: center;
+    background-size: cover;
+  }
 @media(max-width:600px){
     #main{
         width: 100%;
