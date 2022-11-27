@@ -19,15 +19,16 @@ body{
 }
 
 .button {
-  font: bold 15px 'Lato', sans-serif;
+  font: 15px 'Lato', sans-serif;
+  font-weight: 900;
   text-decoration: none;
-  background-color: #87cefa;
-  color: #fffafa;
+  background-color: rgb(255,225,75);
+  color: #FFFFFF;
   padding: 10px 30px;
   border-radius: 5px;
 }
 .button:hover {
-    background-color: #b0dfff;
+    background-color: rgb(255, 233, 126);
 }
 
 #main-header {
@@ -205,16 +206,7 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  #zoomC {
-    /* (A) DIMENSIONS */
-    width: auto;
-    height: 200px;
-   
-    /* (B) BACKGROUND IMAGE */
-    background: url("./images/18844 Pr0Teens Compliant Claw.png");
-    background-position: center;
-    background-size: cover;
-  }
+  
 @media(max-width:600px){
     #main{
         width: 100%;
