@@ -66,9 +66,9 @@ body{
 
 #showcase{
     background-image:url('../images/RoboticsBanner.jpeg');
-    background-position: center right;
+    background-position: center left;
     min-height: 350px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -206,7 +206,7 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-  
+
 @media(max-width:600px){
     #main{
         width: 100%;
