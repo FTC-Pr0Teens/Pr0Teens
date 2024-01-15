@@ -37,7 +37,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #FFD700; /* Golden background */
+    background-color: #ffd90086; /* Golden background */
     color: #ffffff; /* White text */
     font-family: 'Courier New', monospace;
     z-index: 1000; /* Ensure header is above the banner */
