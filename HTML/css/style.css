@@ -96,6 +96,15 @@ body {
     padding-right: 15px;
 
 }
+#navbar:hover {
+    background-color: #f2f2f299; /* Change the color to your preference */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+#navbar {
+    transition: top 0.3s; 
+  }
+  
+
 
 #showcase {
     background-image:url('../images/RoboticsBanner.jpeg');
