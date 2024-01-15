@@ -37,7 +37,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #ffd90086; /* Golden background */
+    background-color: #000000; /* Golden background */
     color: #ffffff; /* White text */
     font-family: 'Courier New', monospace;
     z-index: 1000; /* Ensure header is above the banner */
@@ -97,7 +97,7 @@ body {
 
 }
 #navbar:hover {
-    background-color: #f2f2f299; /* Change the color to your preference */
+    background-color: #dabe1e; /* Change the color to your preference */
     transition: background-color 0.3s; /* Smooth transition for background color change */
 }
 #navbar {
