@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff5d; /* grey background */
+    background-color: #997f7f; /* Changed to grey background */
     color: #FFD700; /* Golden text color */
     font-family: 'Courier New', monospace; /* Computer-like font */
     font-size: 18px;
@@ -40,6 +40,7 @@ body {
     background-color: #FFD700; /* Golden background */
     color: #ffffff; /* White text */
     font-family: 'Courier New', monospace;
+    z-index: 1000; /* Ensure header is above the banner */
 }
 
 #navbar {
@@ -96,15 +97,16 @@ body {
 
 }
 
-#showcase{
+#showcase {
     background-image:url('../images/RoboticsBanner.jpeg');
     background-position: center left;
     min-height: 350px;
     margin-bottom: 10px;
     text-align: center;
+    padding-top: 80px; /* Adjust padding to avoid header overlap */
 }
 
-#showcase h1{
+#showcase h1 {
     color: #fff;
     font-size: 50px;
     line-height: 1.6em;
