@@ -43,41 +43,11 @@ body {
     z-index: 1000; /* Ensure header is above the banner */
 }
 
-#navbar {
-    font-family: 'Courier New', monospace;
-    background-color: #ffffff37; /* grey background */
-    position: fixed;
-    top: 80px;
-    width: 100%;
-    color: #FFD700; /* Golden text */
-}
-
-#navbar ul {
-    padding: 0;
-    list-style: none;
-}
-
-#navbar li {
-    display: inline;
-}
-
-#navbar a {
-    color: #FFD700; /* Golden text */
-    text-decoration: none;
-    font-size: 18px;
-    padding-right: 15px;
-    transition: color 0.3s; /* Smooth transition for hover effect */
-}
-
-#navbar a:hover {
-    color: #DAA520; /* Darker golden color on hover */
-}
-
 #navbar{
     font-family: 'Poppins', sans-serif;
     background-color: rgb(60,60,60);
     position: fixed; /* Set the navbar to fixed position */
-    top: 80px; /* Position the navbar at the top of the page */
+    top: 70px; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     color: #fff;
 }
@@ -96,6 +66,10 @@ body {
     padding-right: 15px;
 
 }
+#navbar a:hover {
+    color: #DAA520; /* Darker golden color on hover */
+}
+
 #navbar:hover {
     background-color: #dabe1e; /* Change the color to your preference */
     transition: background-color 0.3s; /* Smooth transition for background color change */
