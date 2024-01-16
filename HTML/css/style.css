@@ -266,6 +266,9 @@ input[type=text], select, textarea {
     }
   }
   
+  .main h1 {
+    animation: pulse 2s infinite;
+  }
   .main h2 {
     animation: pulse 2s infinite;
   }
