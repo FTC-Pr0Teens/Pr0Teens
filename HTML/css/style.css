@@ -119,6 +119,13 @@ body {
               -ms-animation: fadeIn linear 0.5s;
 }
 
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
 #contact-main{
     float: left;
     width: 60%;
