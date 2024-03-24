@@ -120,8 +120,9 @@ body {
 }
 
 .centerImage {
+  display: block;
   margin-left: auto;
-  margin-top: auto;
+  margin-right: auto;
 }
 
 #contact-main{
