@@ -267,12 +267,16 @@ input[type=text], select, textarea {
   }
   
   .main h1 {
-    animation: pulse 2s infinite;
+    animation: pulse 2s;
   }
   .main h2 {
-    animation: pulse 2s infinite;
+    animation: pulse 2s;
   }
   
   aside img {
     animation: rotation 10s infinite linear;
+  }
+
+  img {
+    margin-top: auto;
   }
