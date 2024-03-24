@@ -277,8 +277,10 @@ input[type=text], select, textarea {
     animation: rotation 10s infinite linear;
   }
 
+<style type="text/css">
 .centerImage
 {
  text-align:center;
  display:block;
 }
+</style>
