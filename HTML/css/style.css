@@ -276,12 +276,3 @@ input[type=text], select, textarea {
   aside img {
     animation: rotation 10s infinite linear;
   }
-
-.centerImage
-{
-   display: block;
-   margin-top: auto;
-   margin-bottom: auto;
-   margin-left: auto;
-   margin-right: auto;
-}
