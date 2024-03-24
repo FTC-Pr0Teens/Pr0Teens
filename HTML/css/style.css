@@ -279,5 +279,9 @@ input[type=text], select, textarea {
 
 .centerImage
 {
-   margin: auto;
+   display: block;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
 }
