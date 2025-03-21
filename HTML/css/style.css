@@ -43,6 +43,13 @@ body {
     z-index: 1000; /* Ensure header is above the banner */
 }
 
+#main-header sm{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
 #navbar{
     font-family: 'Poppins', sans-serif;
     background-color: rgb(60,60,60);
