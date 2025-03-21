@@ -1,7 +1,7 @@
 body {
     background-color: #ffffff; /* Changed to grey background */
     color: #000000; /* Golden text color */
-    font-family: 'Courier New', monospace; /* Computer-like font */
+    font-family: Verdana, sans-serif;
     font-size: 18px;
     line-height: 1.6em;
     margin: 0;
@@ -19,7 +19,7 @@ body {
 }
 
 .button {
-    font: 15px 'Courier New', monospace; /* Computer-like font */
+    font: 15px Verdana, sans-serif; /* Computer-like font */
     font-weight: 900;
     text-decoration: none;
     background-color: #FFD700; /* Golden background */
@@ -39,7 +39,7 @@ body {
     width: 100%;
     background-color: #000000; /* Golden background */
     color: #ffffff; /* White text */
-    font-family: 'Courier New', monospace;
+    font-family: Verdana, sans-serif;
     z-index: 1000; /* Ensure header is above the banner */
 }
 
