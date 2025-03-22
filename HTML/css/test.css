@@ -25,6 +25,9 @@ body {
 .menu {
     display: flex;
 }
+.logo img {
+    height: 40px;
+}
 @media (max-width: 600px) {
     .menu {
         flex-direction: column;
